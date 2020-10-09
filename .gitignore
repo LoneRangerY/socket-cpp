@@ -1,32 +1,47 @@
-# Prerequisites
-*.d
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+# Folder view configuration files
+.DS_Store
+Desktop.ini
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Thumbnail cache files
+._*
+Thumbs.db
 
-# Precompiled Headers
-*.gch
-*.pch
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Compiled Python files
+*.pyc
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
+# Compiled C++ files
 *.out
-*.app
+
+# Application specific files
+venv
+node_modules
+.sass-cache
+
+# Temp File
+*.swp
+*.swa
+*.swo
+
+# github merge file
+*.orig
+
+#vscode 
+.vscode
+
+#CLion
+.idea
